@@ -1,0 +1,24 @@
+------------------------------------
+--------start git commands----------
+------------------------------------
+git init
+git add .
+git commit -m "first commit"
+git config --global user.email "example@gmail.com"
+git branch -M main
+git remote add origin https://github.com/remon-sarwar/PHPPractice
+git push -u origin main
+--------------------------------------------------------------------
+---this is for create new branches if you have problem in main------
+git checkout -b master
+git push origin master
+----------------------------------------
+
+
+git pull
+______________
+__update code__
+git add . 
+git commit -m "1st update test"
+git push origin master
+______________
